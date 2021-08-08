@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "chrome": "83",
+          "node": "12.14.1"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread"
+  ]
+}
